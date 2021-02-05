@@ -3,8 +3,9 @@ package no.fint.consumer.config;
 import no.fint.consumer.utils.RestEndpoints;
 import java.util.Map;
 import com.google.common.collect.ImmutableMap;
-
-import no.fint.model.okonomi.faktura.*;
+import no.fint.model.okonomi.faktura.Faktura;
+import no.fint.model.okonomi.faktura.Fakturagrunnlag;
+import no.fint.model.okonomi.faktura.Fakturautsteder;
 
 public class LinkMapper {
 
