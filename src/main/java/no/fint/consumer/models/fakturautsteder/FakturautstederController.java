@@ -182,7 +182,7 @@ public class FakturautstederController {
 
             fintAuditService.audit(response, Status.SENT_TO_CLIENT);
 
-            return linker.mapAndResetLinks(fakturautsteder);
+            return linker.toResource(fakturautsteder);
         }    
     }
 

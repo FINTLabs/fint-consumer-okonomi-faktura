@@ -182,7 +182,7 @@ public class FakturagrunnlagController {
 
             fintAuditService.audit(response, Status.SENT_TO_CLIENT);
 
-            return linker.mapAndResetLinks(fakturagrunnlag);
+            return linker.toResource(fakturagrunnlag);
         }    
     }
 
