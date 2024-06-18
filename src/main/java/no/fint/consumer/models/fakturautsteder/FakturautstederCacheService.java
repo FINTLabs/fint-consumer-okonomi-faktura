@@ -107,10 +107,7 @@ public class FakturautstederCacheService extends CacheService<FakturautstederRes
         } else {
             data = objectMapper.convertValue(event.getData(), javaType);
         }
-        data.forEach(resource -> {
-            linker.mapLinks(resource);
-            linker.resetSelfLinks(resource);
-        });
+        data.forEach(linker::mapLinks);
         if (FakturaActions.valueOf(event.getAction()) == FakturaActions.UPDATE_FAKTURAUTSTEDER) {
             if (event.getResponseStatus() == ResponseStatus.ACCEPTED || event.getResponseStatus() == ResponseStatus.CONFLICT) {
                 List<CacheObject<FakturautstederResource>> cacheObjects = data
