@@ -26,10 +26,10 @@ import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
-import no.fint.model.okonomi.faktura.Fakturautsteder;
-import no.fint.model.resource.okonomi.faktura.FakturautstederResource;
-import no.fint.model.okonomi.faktura.FakturaActions;
-import no.fint.model.felles.kompleksedatatyper.Identifikator;
+import no.novari.fint.model.okonomi.faktura.Fakturautsteder;
+import no.novari.fint.model.resource.okonomi.faktura.FakturautstederResource;
+import no.novari.fint.model.okonomi.faktura.FakturaActions;
+import no.novari.fint.model.felles.kompleksedatatyper.Identifikator;
 
 @Slf4j
 @Service

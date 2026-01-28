@@ -43,9 +43,9 @@ import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.Stream;
 
-import no.fint.model.resource.okonomi.faktura.FakturagrunnlagResource;
-import no.fint.model.resource.okonomi.faktura.FakturagrunnlagResources;
-import no.fint.model.okonomi.faktura.FakturaActions;
+import no.novari.fint.model.resource.okonomi.faktura.FakturagrunnlagResource;
+import no.novari.fint.model.resource.okonomi.faktura.FakturagrunnlagResources;
+import no.novari.fint.model.okonomi.faktura.FakturaActions;
 
 @Slf4j
 @Api(tags = {"Fakturagrunnlag"})

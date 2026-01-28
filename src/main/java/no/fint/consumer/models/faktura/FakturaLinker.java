@@ -1,7 +1,7 @@
 package no.fint.consumer.models.faktura;
 
-import no.fint.model.resource.okonomi.faktura.FakturaResource;
-import no.fint.model.resource.okonomi.faktura.FakturaResources;
+import no.novari.fint.model.resource.okonomi.faktura.FakturaResource;
+import no.novari.fint.model.resource.okonomi.faktura.FakturaResources;
 import no.fint.relations.FintLinker;
 import org.springframework.stereotype.Component;
 
